@@ -1,0 +1,2 @@
+I am managing a convalescent home for mothers recuperating from birth. 
+I need a record of all patients that stayed here since 2010 and all the info regarding their stay - How long they stayed - start and end dates of stay, what gender the baby was, what level room they stayed in, room number, and cost per stay
