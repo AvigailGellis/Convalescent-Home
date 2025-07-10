@@ -1,24 +1,29 @@
 I am managing a convalescent home for mothers recuperating from birth. 
 I need a record of all patients that stayed here since 2010 and all the info regarding their stay - How long they stayed - start and end dates of stay, what gender the baby was, what level room they stayed in, room number, and cost per stay
+
 Sample Data:
 Doe, Jane, 07/24/2012, 07/28/2012, Male, Superior, 215, 600.00 
-
 Smith, Susan, 06/12/2020, 06/14/2020, Female, Standard, 109, 200.00 
-
 Jones, Eva, 01/20/2015, 01/27/2015, Female, Deluxe, 424, $1400
-
 Brown, Emily, 03/13/2024, 3/17/2024, Male, Standard, 303, $400
-
-Miller, Elizabeth, 07/18/2025, Male, Standard, 309
+Miller, Elizabeth, 07/18/2025, 07/19/2025, Male, Standard, 309, $100
+Williams, Karen, 11/21/2019, 11/23/2019, Female, Deluxe, $400
 
 Comments:
-There should not be any patients here before 2010, since the place was not opened yet.
-The room levels are Standard - $100 per day, Superior - $150 per day, Deluxe $200 per day
+Q: Can there be clients before the year 2010
+A: no, the place was not open
+The room levels are 
+Standard - $100 per day 
+Superior - $150 per day
+Deluxe $200 per day
 The longest stay possible is 1 week, with a minimum of 2 days.
 Room numbers work as follows: Floor 1 - 101-128, Floor 2 - 201-227... Every room has 9 of each level- 101-110-standard, 111-119-superior, 120-128-Deluxe...
+The clients pay at the end of the stay, so if a client is still a guest here, the amount paid should be blank.
+
 
 
 Reports:
-1)List all clients who stayed in a Deluxe room and payed more than $500
-2)List all client who gave birth to a female
-3)List all clients who gave birth during the month of July
+I need a list of all clients who stayed in a Deluxe room and payed more than $500
+I need a list of all clients who gave birth to a female
+I need a list of all clients gave stayed in the home during the month of July
+Show me the average length of stay for clients in a Standard room
