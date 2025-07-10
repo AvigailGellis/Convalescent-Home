@@ -27,3 +27,4 @@ I need a list of all clients who stayed in a Deluxe room and payed more than $50
 I need a list of all clients who gave birth to a female
 I need a list of all clients gave stayed in the home during the month of July
 Show me the average length of stay for clients in a Standard room
+Show the amount of days that each client stayed at the hotel.
